@@ -1,0 +1,31 @@
+{
+  "name": "fable-import-phaser",
+  "version": "2.6.2",
+  "description": "F# Fable bindings for Phaser v2.6.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heimeshoff/fable-import-phaser.git"
+  },
+  "keywords": [
+    "fable",
+    "fsharp",
+    "phaser",
+    "f#",
+    "phaser.io"
+  ],
+  "author": "Marco Heimeshoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heimeshoff/fable-import-phaser/issues"
+  },
+  "homepage": "https://github.com/heimeshoff/fable-import-phaser#readme",
+  "devDependencies": {
+    "fable-compiler": "^0.6.15",
+    "phaser": "^2.6.2",
+    "ts2fable": "^0.1.22"
+  }
+}

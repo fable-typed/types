@@ -1,0 +1,14 @@
+{
+    "projFile": "./src/Fable.React.fsproj",
+    "plugins": ["./src/plugins/Replacer.fsx"],
+    "outDir": "./npm",
+    "dll": true,
+    "sourceMaps": true,
+    "targets": {
+        "umd": {
+            "dll": false,
+            "module": "umd",
+            "outDir": "./npm/umd"
+        }
+    }
+}
